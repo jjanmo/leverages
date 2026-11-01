@@ -52,7 +52,7 @@ const LoginForm = ({ redirectUrl }: Props) => {
           >
             {m === 'login' ? '로그인' : '회원가입'}
             {mode === m && (
-              <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-linear-to-r from-red-500 via-orange-400 to-yellow-400 rounded-full" />
+              <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-brand rounded-full" />
             )}
           </button>
         ))}
@@ -83,7 +83,7 @@ const LoginForm = ({ redirectUrl }: Props) => {
         <button
           type="submit"
           disabled={isPending}
-          className="w-full py-3 rounded-xl bg-linear-to-r from-red-500 via-orange-400 to-yellow-400 text-white text-sm font-bold tracking-wide shadow-md hover:opacity-90 disabled:opacity-40 transition-opacity cursor-pointer"
+          className="w-full py-3 rounded-xl bg-brand text-brand-ink text-sm font-bold tracking-wide shadow-md hover:opacity-90 disabled:opacity-40 transition-opacity cursor-pointer"
         >
           {isPending ? '처리 중...' : mode === 'login' ? '로그인' : '회원가입'}
         </button>

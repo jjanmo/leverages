@@ -11,6 +11,12 @@ export const metadata: Metadata = {
 Just as small embers come together to kindle a great fire,
 fires helps you grow and manage your investments —
 one spark at a time — until the day you no longer need to work.`,
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: light)' },
+      { url: '/icon-dark.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: dark)' },
+    ],
+  },
 };
 
 const RootLayout = async ({ children }: Readonly<{ children: React.ReactNode }>) => {

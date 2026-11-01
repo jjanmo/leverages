@@ -44,6 +44,10 @@
 
   /* 행 호버 */
   --c-row-hover: rgba(51, 65, 85, 0.3);
+
+  /* 브랜드 (테마 무관) */
+  --c-brand: #c8f03c;
+  --c-brand-ink: #0d1321;
 }
 
 /* ────────────────────────────────────────────────────────
@@ -126,6 +130,9 @@
   .bg-sk-card {
     background-color: var(--sk-card);
   }
+  .bg-brand {
+    background-color: var(--c-brand);
+  }
 
   /* ── 테두리 색상 ── */
   .border-edge {
@@ -171,6 +178,9 @@
   }
   .text-loss {
     color: var(--c-loss);
+  }
+  .text-brand-ink {
+    color: var(--c-brand-ink);
   }
 }
 

@@ -1,18 +1,22 @@
+import Image from 'next/image';
 import { cn } from '@/shared/lib/cn';
+import logoLight from './assets/logo-light@3x.png';
+import logoDark from './assets/logo-dark@3x.png';
 
 interface Props {
   size?: 'sm' | 'md' | 'lg'
 }
 
 const sizeClass = {
-  sm: 'text-xl',
-  md: 'text-3xl',
-  lg: 'text-5xl',
+  sm: 'h-6',
+  md: 'h-8',
+  lg: 'h-12',
 }
 
 const Logo = ({ size = 'md' }: Props) => (
-  <span className={cn('font-bold tracking-tight bg-linear-to-r from-red-500 via-orange-400 to-yellow-400 bg-clip-text text-transparent', sizeClass[size])}>
-    fires
+  <span className="inline-flex">
+    <Image src={logoLight} alt="Leverages" loading="eager" className={cn('w-auto dark:hidden', sizeClass[size])} />
+    <Image src={logoDark} alt="Leverages" loading="eager" className={cn('w-auto hidden dark:block', sizeClass[size])} />
   </span>
 )
 
