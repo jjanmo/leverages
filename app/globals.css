@@ -251,6 +251,17 @@ html {
   border-radius: 0.375rem;
 }
 
+/* ── 모바일 입력창 자동 확대 방지 ──
+   iOS Safari는 16px 미만 입력창 포커스 시 페이지를 확대한다.
+   @layer 밖에 두어 text-sm 등 유틸리티보다 우선 적용 */
+@media (max-width: 639px) {
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}
+
 /* ── 스크롤바 ── */
 ::-webkit-scrollbar {
   width: 6px;
