@@ -4,12 +4,12 @@ export const SIGMA_FREQUENCY_DARK = {
   close: '#22d3ee',
   buy2s: '#c084fc',
   buy1s: '#38bdf8',
-  grid: '#1e293b',
-  ticks: '#94a3b8',
-  tooltipBg: '#1e293b',
-  tooltipBorder: '#475569',
-  tooltipTitle: '#94a3b8',
-  tooltipBody: '#e2e8f0',
+  grid: '#1b2232',
+  ticks: '#8e96a8',
+  tooltipBg: '#1b2232',
+  tooltipBorder: '#3a4357',
+  tooltipTitle: '#8e96a8',
+  tooltipBody: '#dadde4',
 };
 
 export const SIGMA_FREQUENCY_LIGHT = {

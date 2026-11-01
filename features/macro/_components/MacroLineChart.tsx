@@ -106,12 +106,12 @@ const MacroLineChart = ({
     )
   }
 
-  const gridColor = isDark ? '#334155' : '#e2e8f0'
-  const tickColor = isDark ? '#94a3b8' : '#64748b'
-  const tooltipBg = isDark ? '#1e293b' : '#ffffff'
-  const tooltipBorder = isDark ? '#475569' : '#e2e8f0'
-  const tooltipBody = isDark ? '#e2e8f0' : '#0f172a'
-  const refLineColor = isDark ? 'rgba(148,163,184,0.25)' : 'rgba(100,116,139,0.25)'
+  const gridColor = isDark ? '#2a3244' : '#e2e8f0'
+  const tickColor = isDark ? '#8e96a8' : '#64748b'
+  const tooltipBg = isDark ? '#1b2232' : '#ffffff'
+  const tooltipBorder = isDark ? '#3a4357' : '#e2e8f0'
+  const tooltipBody = isDark ? '#dadde4' : '#0f172a'
+  const refLineColor = isDark ? 'rgba(142,150,168,0.25)' : 'rgba(100,116,139,0.25)'
 
   const isArea = variant === 'area'
   const isStep = variant === 'step'

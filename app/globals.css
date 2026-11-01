@@ -7,22 +7,22 @@
 ──────────────────────────────────────────────────────── */
 :root {
   /* 배경 */
-  --c-canvas: #0f172a;
-  --c-card: #1e293b;
-  --c-inset: #0f172a;
-  --c-field: #334155;
-  --c-tab-bar: #1e293b;
-  --c-tab-active: #334155;
+  --c-canvas: #0d1321;
+  --c-card: #1b2232;
+  --c-inset: #0d1321;
+  --c-field: #2a3244;
+  --c-tab-bar: #1b2232;
+  --c-tab-active: #2a3244;
 
   /* 테두리 */
-  --c-edge: #334155;
-  --c-edge-hi: #475569;
+  --c-edge: #2a3244;
+  --c-edge-hi: #3a4357;
 
   /* 텍스트 계층 */
-  --c-ink-1: #ffffff;
-  --c-ink-2: #e2e8f0;
-  --c-ink-3: #94a3b8;
-  --c-ink-4: #64748b;
+  --c-ink-1: #f4f5f0;
+  --c-ink-2: #dadde4;
+  --c-ink-3: #8e96a8;
+  --c-ink-4: #636b7e;
 
   /* 매수 */
   --c-buy-bg: rgba(20, 83, 45, 0.3);
@@ -43,7 +43,7 @@
   --c-loss: #f87171;
 
   /* 행 호버 */
-  --c-row-hover: rgba(51, 65, 85, 0.3);
+  --c-row-hover: rgba(42, 50, 68, 0.4);
 
   /* 브랜드 (테마 무관) */
   --c-brand: #c8f03c;
@@ -190,10 +190,10 @@ html {
 
 /* ── 스켈레톤 shimmer / pulse ── */
 :root {
-  --sk-base: #1e293b;
-  --sk-hi: #3e5472;
-  --sk-card: #1a2436;
-  --sk-bar: #334155;
+  --sk-base: #1b2232;
+  --sk-hi: #333c52;
+  --sk-card: #161d2c;
+  --sk-bar: #2a3244;
 }
 .light {
   --sk-base: #c8d3de;

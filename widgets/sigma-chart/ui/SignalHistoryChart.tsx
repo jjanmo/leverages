@@ -49,15 +49,15 @@ const DARK = {
   sell2s: '#60a5fa', // s2u 색
   s2d: '#4ade80',
   s1d: '#86efac',
-  mu: '#64748b',
+  mu: '#636b7e',
   s1u: '#93c5fd',
   s2u: '#60a5fa',
-  grid: '#1e293b',
-  ticks: '#94a3b8',
-  tooltipBg: '#1e293b',
-  tooltipBorder: '#475569',
-  tooltipTitle: '#94a3b8',
-  tooltipBody: '#e2e8f0',
+  grid: '#1b2232',
+  ticks: '#8e96a8',
+  tooltipBg: '#1b2232',
+  tooltipBorder: '#3a4357',
+  tooltipTitle: '#8e96a8',
+  tooltipBody: '#dadde4',
 };
 const LIGHT = {
   buy2s: '#16a34a',
