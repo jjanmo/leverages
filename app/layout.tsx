@@ -5,12 +5,12 @@ import AppHeader from './_components/AppHeader';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: { default: 'fires', template: '%s | fires' },
-  description: `Fires is a personal portfolio management tool built for the path to FIRE(Financial Independence, Retire Early).
+  title: { default: 'Leverages', template: '%s | Leverages' },
+  description: `Leverages is a toolkit for leveraged investing.
 
-Just as small embers come together to kindle a great fire,
-fires helps you grow and manage your investments —
-one spark at a time — until the day you no longer need to work.`,
+From signal-based strategies to systematic buying plans,
+Leverages brings together the tools you need
+to build, test, and run your own leveraged investment system.`,
   icons: {
     icon: [
       { url: '/icon.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: light)' },
