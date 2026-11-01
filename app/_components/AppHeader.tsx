@@ -10,15 +10,17 @@ const AppHeader = async () => {
 
   return (
     <header className="border-b border-edge bg-canvas/80 backdrop-blur-md sticky top-0 z-10">
-      <div className="relative px-4 sm:px-6 max-w-5xl mx-auto h-12 flex items-center gap-4">
-        <Link href="/" className="hover:opacity-80 transition-opacity shrink-0">
-          <Logo size="sm" />
-        </Link>
-        <NavTabs />
-        <div className="flex items-center gap-2 ml-auto">
-          <HeaderSearch />
-          {user ? <UserMenu email={user.email} /> : <LoginButton />}
-          <ThemeToggle />
+      <div className="px-4 sm:px-6">
+        <div className="relative max-w-5xl mx-auto h-12 flex items-center gap-4">
+          <Link href="/" className="flex hover:opacity-80 transition-opacity shrink-0">
+            <Logo size="sm" />
+          </Link>
+          <NavTabs />
+          <div className="flex items-center gap-2 ml-auto">
+            <HeaderSearch />
+            {user ? <UserMenu email={user.email} /> : <LoginButton />}
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </header>

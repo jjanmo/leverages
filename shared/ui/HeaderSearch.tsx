@@ -85,7 +85,7 @@ const HeaderSearchContent = () => {
   }
 
   return (
-    <div className="sm:animate-search-expand flex items-center gap-2.5 bg-field border-2 border-edge-hi focus-within:border-ink-3 rounded-lg px-3 h-9 transition-colors max-sm:absolute max-sm:inset-x-4 max-sm:top-1/2 max-sm:-translate-y-1/2 max-sm:z-10">
+    <div className="sm:animate-search-expand flex items-center gap-2.5 bg-field border-2 border-edge-hi focus-within:border-ink-3 rounded-lg px-3 h-9 transition-colors max-sm:absolute max-sm:inset-x-0 max-sm:top-1/2 max-sm:-translate-y-1/2 max-sm:z-10">
       <svg
         width="15"
         height="15"
