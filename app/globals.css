@@ -235,6 +235,31 @@ html {
   }
 }
 
+@keyframes drawer-slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes drawer-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@layer utilities {
+  .animate-drawer-slide-in {
+    animation: drawer-slide-in 200ms ease-out;
+  }
+  .animate-drawer-fade-in {
+    animation: drawer-fade-in 200ms ease-out;
+  }
+}
+
 @keyframes shimmer {
   0% {
     background-position: -600px 0;

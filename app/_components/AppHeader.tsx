@@ -3,6 +3,7 @@ import { ThemeToggle, Logo, HeaderSearch } from '@/shared/ui';
 import { UserMenu } from '@/features/auth';
 import { getCurrentUser } from '@/shared/lib/supabase/server';
 import NavTabs from './NavTabs';
+import MobileNavDrawer from './MobileNavDrawer';
 import LoginButton from './LoginButton';
 
 const AppHeader = async () => {
@@ -11,7 +12,8 @@ const AppHeader = async () => {
   return (
     <header className="border-b border-edge bg-canvas/80 backdrop-blur-md sticky top-0 z-10">
       <div className="px-4 sm:px-6">
-        <div className="relative max-w-5xl mx-auto h-12 flex items-center gap-4">
+        <div className="relative max-w-5xl mx-auto h-12 flex items-center gap-1">
+          <MobileNavDrawer />
           <Link href="/" className="flex hover:opacity-80 transition-opacity shrink-0">
             <Logo size="sm" />
           </Link>
